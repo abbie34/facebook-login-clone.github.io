@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'helveticaregular';
+    src: url('helvetica-webfont.woff2') format('woff2'),
+         url('helvetica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticabold';
+    src: url('helvetica-bold-webfont.woff2') format('woff2'),
+         url('helvetica-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: #F0F2F5;
+    margin: 0;
+    display: flex;
+}
+
+section{
+    display: inline-block;
+    justify-content: center;
+    height: 100vh;
+    width: 49%;
+    margin: 0;
+    /* border: 1px solid #000000; */
+}
+
+.text{
+    width: 75%;
+    justify-content: center;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    margin-top: 28%;
+}
+
+h1{
+    color: #1877F2;
+    font-family: 'helveticabold';
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'helveticaregular';
+    font-size: 27px;
+    padding: 0;
+    color: #1C1E21;
+    margin-top: 5px;
+}
+
+.bg-form{
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    margin-top: 0;
+    /* position: ; */
+}
+
+form{
+    width: 59%;
+    height: 52%;
+    /* border: 1px solid #000000; */
+    box-shadow: 0 0.5rem 30px #ccc;
+    margin-left: 15%;
+    margin-top: 18%;
+    border-radius: 10px;
+    background-color: white;
+    /* justify-content: center; */
+}
+
+.email{
+    width: 355px;
+    height: 20px;
+    margin: 16px;
+    font-family: 'helveticaregular';
+    border: 1.5px solid #DDDFE2;
+    border-radius: 7px;
+    padding: 15px 0 15px 15px;
+    font-size: 15px;
+    /* padding: 3px; */
+}
+
+.email:focus{
+    outline:none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.password{
+    width: 355px;
+    height: 20px;
+    font-family: 'helveticaregular';
+    margin: 0 16px 16px 16px; 
+    border: 1.5px solid #DDDFE2;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 15px 0 15px 15px;
+}
+
+.password:focus{
+    outline:none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.login{
+    width: 371px;
+    height: 48px;
+    margin: 0 0 16px 16px;  
+    border: 1.5px solid #DDDFE2;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: #1877F2;
+    font-family: 'helveticabold';
+    color: #ffffff;
+    transition: all 150ms ease-in-out;
+}
+
+.login:hover{
+    background-color: #1b6bd4;
+    cursor: pointer;
+}
+
+form a{
+    text-align: center;
+    justify-content: center;
+    color: #6277F3;
+    display: block;
+    text-decoration: none;
+    font-family: 'helveticaregular';
+    font-size: 15px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin: 18px 16px 16px 16px;
+    /* background-color: #dddfe2; */
+    height: 1px solid;
+    border-top: 1px solid #dddfe2;
+}
+
+button{
+    width: 50%;
+    justify-content: center;
+    height: 48px;
+    margin: 0 0 16px 16px;  
+    border: 1.5px solid #DDDFE2;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: #3bb123;
+    font-family: 'helveticabold';
+    color: #ffffff;
+    transition: all 150ms ease-in-out;
+    /* display: block; */
+    margin-left: 25%;
+}
+
+button:hover{
+    background-color: #36A420;
+    cursor: pointer;
+}
+
+article{
+    margin-left: 23%;
+    margin-top: 5%;
+    font-family: 'helveticaregular';
+
+}
+
+article p{
+    font-size: 13.5px;
+}
+
+article p a{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article p a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
